@@ -17,7 +17,7 @@ if (isset($_GET['id'])) {
         header('Location: index.php');
         exit();
     } else {
-        echo "Erro ao eliminar o registro: " . $stmt->error;
+        echo "Erro ao eliminar o registo: " . $stmt->error;
     }
 
     $stmt->close();
